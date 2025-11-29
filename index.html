@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="assets/css/styles.min.css">
 </head>
 
-<body><div id="preloader" style="position: fixed;inset: 0;display: flex;flex-direction: column;justify-content: center;align-items: center;background: rgba(18,21,28,0.7);backdrop-filter: blur(6px);-webkit-backdrop-filter: blur(6px);z-index: 1000;transition: opacity 0.9s;">
+<body class="flex-wrap"><div id="preloader" style="position: fixed;inset: 0;display: flex;flex-direction: column;justify-content: center;align-items: center;background: rgba(18,21,28,0.7);backdrop-filter: blur(6px);-webkit-backdrop-filter: blur(6px);z-index: 1000;transition: opacity 0.9s;">
 
   <div style="
     font-size:1rem; color:#eaf1ff; font-weight:50; letter-spacing:0.3em; margin-bottom:2px;
@@ -30,22 +30,20 @@
   </div>
 </div>
 
-    <div>
-        <section class="d-flex flex-row flex-wrap" id="hero-main">
-            <div class="d-flex flex-column justify-content-center align-items-center flex-wrap" id="hero-right">
-                <p style="font-size: 180px;margin: -57px;color: rgb(255,255,255);">Hey</p>
-                <p style="font-size: 36px;margin: -55px;margin-right: 32px;color: rgb(255,255,255);font-weight: bold;"><br>I'm Renjith.<br><br></p>
-            </div>
-            <div class="d-flex align-items-center" id="hero-left">
-                <section class="d-flex flex-column justify-content-center align-items-start" id="intro">
-                    <p class="mt-0 pt-0" style="font-size: 25px;max-width: 40rem;padding: 1rem;margin-top: 0px;"><a class="btn btn-primary" role="button" data-bss-hover-animate="pulse" style="background: rgb(0,0,0);border: 1.8px solid rgb(0,0,0) ;" target="_parent" rel="author" href="https://renjith-rl.github.io">Visit My Website&nbsp;<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" fill="none" style="margin-bottom: 4px;">
-                                <path d="M15.0378 6.34317L13.6269 7.76069L16.8972 11.0157L3.29211 11.0293L3.29413 13.0293L16.8619 13.0157L13.6467 16.2459L15.0643 17.6568L20.7079 11.9868L15.0378 6.34317Z" fill="currentColor"></path>
-                            </svg></a><br><br>Web developer crafting calm, modern websites that make your ideas look sharp, feel fast, and stay memorable.<br><br></p>
-                    <p style="font-style: italic;margin-top: -97px;color: rgb(255,255,255);padding: 1rem;"><br><br>I design and build custom, responsive sites with smooth <br>interactions, clear typography, and focused layouts—so visitors <br>instantly understand who you are, what you do, and why you stand out.<br><br></p>
-                </section>
-            </div>
-        </section>
-    </div>
+    <section class="d-flex flex-row flex-wrap" id="hero-main" style="min-height: 100svh;">
+        <div class="d-flex flex-column justify-content-center align-items-center flex-wrap" id="hero-right">
+            <p style="font-size: 170px;margin: -57px;color: rgb(255,255,255);padding: 1px;">Hey</p>
+            <p style="font-size: 36px;margin: -55px;margin-right: 16px;color: rgb(255,255,255);font-weight: bold;"><br>I'm Renjith.<br><br></p>
+        </div>
+        <div class="d-flex align-items-center flex-wrap" id="hero-left">
+            <section class="d-flex flex-column justify-content-center align-items-start align-content-center flex-wrap" id="intro" style="padding: 6px;">
+                <p class="mt-0 pt-0" style="font-size: 24px;max-width: 40rem;padding: 1rem;margin-top: 0px;margin-bottom: 0px;padding-top: 18px;"><a class="btn btn-primary" role="button" data-bss-hover-animate="pulse" style="background: rgb(0,0,0);border: 1.8px solid rgb(0,0,0);margin-top: 0px;" target="_parent" rel="author" href="https://renjith-rl.github.io">Visit My Website&nbsp;<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" fill="none" style="margin-bottom: 4px;">
+                            <path d="M15.0378 6.34317L13.6269 7.76069L16.8972 11.0157L3.29211 11.0293L3.29413 13.0293L16.8619 13.0157L13.6467 16.2459L15.0643 17.6568L20.7079 11.9868L15.0378 6.34317Z" fill="currentColor"></path>
+                        </svg></a><br><br>Web developer crafting calm, modern websites that make your ideas look sharp, feel fast, and stay memorable.<br><br></p>
+                <p class="flex-wrap" style="font-style: italic;margin-top: -97px;color: rgb(255,255,255);padding: 1rem;margin-bottom: 0px;font-size: 15px;padding-bottom: 1px;"><br><br>I design and build custom, responsive sites with smooth <br>interactions, clear typography, and focused layouts—so visitors <br>instantly understand who you are, what you do, and why you stand out.&nbsp;</p>
+            </section>
+        </div>
+    </section>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"></script>
     <script src="assets/js/script.min.js"></script>
